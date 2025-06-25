@@ -1,12 +1,26 @@
-# React + Vite
+# Welcome to Field Finder!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is a map-based web tool that is used for exploring public fields in the Boston area. Using React.Vite, this web app uses the Google Maps API to detect the user's current location and show a list of parks and public fields close to them (assuming they are in Boston). 
 
-Currently, two official plugins are available:
+Read more about the research and techniques of the application here: https://docs.google.com/document/d/15h8ips8t5Hzr0C-NbhEbJWaPLgSP8soG8f0I422A2io/edit?usp=sharing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+npm install
+# or
+yarn install
+
+To run the application: npm run dev or yarn run dev
